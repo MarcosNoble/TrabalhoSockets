@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DateServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Socket1.java" afterDir="false" />
+    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="Inicio T1, copiando codigos do exercicio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,29 @@
       <option name="presentableId" value="Default" />
       <updated>1681068308431</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inicio T1, copiando codigos do exercicio">
+      <created>1681068751671</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681068751671</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicio T1, copiando codigos do exercicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio T1, copiando codigos do exercicio" />
   </component>
 </project>
