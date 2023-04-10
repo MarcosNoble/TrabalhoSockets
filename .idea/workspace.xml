@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="Inicio T1, copiando codigos do exercicio">
-      <change afterPath="$PROJECT_DIR$/src/CapitalizeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CapitalizeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToeServer.java" afterDir="false" />
+    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="teste VM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Socket1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Socket1" />
@@ -83,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681068977628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="teste VM">
+      <created>1681089079831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681089079831</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio T1, copiando codigos do exercicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio T1, copiando codigos do exercicio" />
+    <MESSAGE value="teste VM" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste VM" />
   </component>
 </project>
