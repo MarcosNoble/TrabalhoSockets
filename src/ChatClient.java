@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
@@ -5,7 +6,6 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
@@ -79,7 +79,15 @@ public class ChatClient {
                     this.frame.setTitle("Chatter - " + line.substring(13));
                     textField.setEditable(true);
                 } else if (line.startsWith("MESSAGE")) {
+
+
+                    //Começo de mudança
+
+                    messageArea.setForeground(Color.BLACK);
                     messageArea.append(line.substring(8) + "\n");
+                }else if (line.startsWith("SYSTEM")) {
+                    messageArea.setForeground(Color.RED);
+                    messageArea.append(line.substring(6) + "\n");
                 }
             }
         } finally {
