@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
  * the thread, allowing much greater throughput because more clients can be
  * handled concurrently.
  */
-public class CapitalizeServer {
+public class CapitalizeServer{
 
     /**
      * Runs the server. When a client connects, the server spawns a new thread to do

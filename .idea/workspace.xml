@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="Inicio T1, copiando codigos do exercicio">
+    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="Todos os exemplos compreendidos, começando a entender como fazer o exercicio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +24,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,17 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Main/Novo semestre Drive/Java/SistemasDistribuidos/T1/Sockets",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.TicTacToeClient">
     <configuration name="Socket1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Socket1" />
       <module name="Sockets" />
@@ -52,8 +50,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicTacToeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToeClient" />
+      <module name="Sockets" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToeClient" />
         <item itemvalue="Application.Socket1" />
       </list>
     </recent_temporary>
@@ -81,14 +87,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681068977628</updated>
     </task>
-    <task id="LOCAL-00003" summary="Inicio T1, copiando codigos do exercicio">
-      <created>1681070457925</created>
+    <task id="LOCAL-00003" summary="teste VM">
+      <created>1681089079831</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1681070457925</updated>
+      <updated>1681089079831</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rodando primeiro exemplo crirou um .class">
+      <created>1681093072976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681093072977</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Todos os exemplos compreendidos, começando a entender como fazer o exercicio">
+      <created>1681678987932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681678987932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +124,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio T1, copiando codigos do exercicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio T1, copiando codigos do exercicio" />
+    <MESSAGE value="teste VM" />
+    <MESSAGE value="Rodando primeiro exemplo crirou um .class" />
+    <MESSAGE value="Todos os exemplos compreendidos, começando a entender como fazer o exercicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todos os exemplos compreendidos, começando a entender como fazer o exercicio" />
   </component>
 </project>
