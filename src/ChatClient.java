@@ -6,11 +6,11 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
+import javax.swing.*;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
 
 /**
  * A simple Swing-based client for the chat server. Graphically it is a frame
@@ -33,7 +33,10 @@ public class ChatClient {
     PrintWriter out;
     JFrame frame = new JFrame("Chatter");
     JTextField textField = new JTextField(50);
-    JTextArea messageArea = new JTextArea(16, 50);
+    //JTextArea messageArea = new JTextArea(16, 50);
+    JTextPane messageArea = new JTextPane();
+    StyledDocument doc = messageArea.getStyledDocument();
+    Style style = messageArea.addStyle("Color Style", null);
 
     /**
      * Constructs the client by laying out the GUI and registering a listener with
@@ -51,6 +54,9 @@ public class ChatClient {
         frame.getContentPane().add(new JScrollPane(messageArea), BorderLayout.CENTER);
         frame.pack();
 
+
+
+        StyleConstants.setForeground(style, Color.BLUE);
         // Send on enter then clear to prepare for next message
         textField.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -79,18 +85,19 @@ public class ChatClient {
                     this.frame.setTitle("Chatter - " + line.substring(13));
                     textField.setEditable(true);
                 } else if (line.startsWith("MESSAGE")) {
-
-
-                    //Começo de mudança
-
-                    messageArea.setForeground(Color.BLACK);
-                    messageArea.append(line.substring(8) + "\n");
+                    doc.insertString(doc.getLength(), line.substring(7) + "\n", null);
+                    //messageArea.setForeground(Color.BLACK);
+                    //messageArea.append(line.substring(8) + "\n");
                 }else if (line.startsWith("SYSTEM")) {
-                    messageArea.setForeground(Color.RED);
-                    messageArea.append(line.substring(6) + "\n");
+                    doc.insertString(doc.getLength(), line.substring(7) + "\n",style);
+                    //messageArea.setForeground(Color.RED);
+                    //messageArea.append(line.substring(6) + "\n");
+
                 }
             }
-        } finally {
+        } catch (BadLocationException e){
+
+        }finally {
             frame.setVisible(false);
             frame.dispose();
         }
