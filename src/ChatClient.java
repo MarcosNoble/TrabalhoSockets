@@ -35,6 +35,7 @@ public class ChatClient {
     JTextField textField = new JTextField(50);
     //JTextArea messageArea = new JTextArea(16, 50);
     JTextPane messageArea = new JTextPane();
+
     StyledDocument doc = messageArea.getStyledDocument();
     Style style = messageArea.addStyle("Color Style", null);
 
@@ -50,6 +51,7 @@ public class ChatClient {
 
         textField.setEditable(false);
         messageArea.setEditable(false);
+        messageArea.setPreferredSize(new Dimension(300, 200));
         frame.getContentPane().add(textField, BorderLayout.SOUTH);
         frame.getContentPane().add(new JScrollPane(messageArea), BorderLayout.CENTER);
         frame.pack();
