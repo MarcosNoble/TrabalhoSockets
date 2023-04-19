@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="Trocando Jtextarea por Jpane e adicionando o estilo consegui fazer o que era pedido. Agora falta resolver o tamanho inicial da janela.">
+    <list default="true" id="6f8b61d2-51e9-466f-88a9-f498eea802ca" name="Changes" comment="Problema de tamanho resolvido.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681786414888</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Problema de tamanho resolvido.">
+      <created>1681786738401</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681786738401</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +158,7 @@
     <MESSAGE value="Todos os exemplos compreendidos, começando a entender como fazer o exercicio" />
     <MESSAGE value="Linha 84 do cliente, 107 do server. Agora a cor muda com as mensagens system e user mas não do jeito certo." />
     <MESSAGE value="Trocando Jtextarea por Jpane e adicionando o estilo consegui fazer o que era pedido. Agora falta resolver o tamanho inicial da janela." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trocando Jtextarea por Jpane e adicionando o estilo consegui fazer o que era pedido. Agora falta resolver o tamanho inicial da janela." />
+    <MESSAGE value="Problema de tamanho resolvido." />
+    <option name="LAST_COMMIT_MESSAGE" value="Problema de tamanho resolvido." />
   </component>
 </project>

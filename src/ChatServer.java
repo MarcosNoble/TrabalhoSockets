@@ -106,7 +106,7 @@ public class ChatServer {
                     writers.remove(out);
                 }
                 if (name != null) {
-                    System.out.println("SYSTEM" + name + " is leaving");
+                    System.out.println( name + " is leaving");
                     names.remove(name);
                     for (PrintWriter writer : writers) {
                         writer.println("SYSTEM" + name + " has left");
